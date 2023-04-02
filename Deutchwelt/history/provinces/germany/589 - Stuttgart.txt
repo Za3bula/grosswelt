@@ -1,0 +1,19 @@
+ 
+ 
+owner = WUR
+controller = WUR
+add_core = WUR
+add_core = GER
+trade_goods = cotton
+life_rating = 40
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

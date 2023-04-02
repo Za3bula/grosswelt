@@ -1,0 +1,29 @@
+army = {
+	name = "Holsteinische Armee"
+	location = 369
+	regiment = {
+		name= "1. Schleswig-Hols. Landwehrbrigade"
+		type = infantry
+		home = 369
+	}
+	
+	regiment = {
+		name= "1. Schleswig-Hols. Landwehrbrigade"
+		type = artillery
+		home = 369
+	}
+	
+	regiment = {
+		name= "1. Schleswig-Hols. Landwehrbrigade"
+		type = hussar
+		home = 529
+	}
+	
+	regiment = {
+		name= "1. Schleswig-Hols. Landwehrbrigade"
+		type = infantry
+		home = 528
+	}
+	
+}
+

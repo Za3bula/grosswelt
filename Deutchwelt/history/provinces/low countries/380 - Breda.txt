@@ -1,0 +1,8 @@
+ 
+ 
+owner = NET
+controller = NET
+add_core = NET
+trade_goods = opium
+life_rating = 35
+1861.1.1 = { railroad = 1 }

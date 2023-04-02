@@ -1,0 +1,121 @@
+-----------------------------------VERSION 0.1--------------------------------------
+Map:
+	Map is as you can see it in terms of what nations own what (not listing this)
+	Alsace-Lorraine is 40 LR
+	Gave Bozen (South Tirol) to Tirol
+	Brest reduced from it's normal size to the 3 parts of it that PLC owns at the start + Suwalki from Mazowieckie
+	Merged Bremen and Oldenburg
+	Merged Brunswick with Detmold
+	Merged Holstein with Hamburg
+	Merged Mecklenburg with Lubeck
+	Blue Bordered all outside of the countries on the map, also blue-bordered 2 states of UK which are no longer ports (can no longer build ships in Wales and NW-England nor Bristol+Bath)
+	Small state rework with Sweden to remove the 2 1 province states
+	
+Pop Changes:
+	Changed all Lithuanians into Polish (VERY SMALL AMOUNT)
+	
+PopTypes Changes:
+	Removed anyone's demand for Opium
+
+Reno Changes:
+	I've compressed Reno changes down so they're easily portable now, with pretty vanilla values in places, with the localisation folder trimmed down to not have extra bloat and simply just have the pure Reno changes, some had to be manually added however
+
+-----------------------------------VERSION 0.2 ----------------------------------
+Misc:
+	Austria's lit is at 45% over 40% now
+	Frankfurt merged into Nassau
+	Sikkim is added with host decisions
+	Invisible event to add 100k to all GPs, and 50k to all secondaries day1 (this event is on Sikkim)
+	Blue-bordered Sikkim
+
+Life needs:
+Fruit -> Grain - this causes an 'overflow' of grain which can then be used to fill in the other 'luxury' goods
+Cattle is over demand, fine
+Fish is over demand, fine
+Vanilla has all 3 goods in too low a supply to funnel into the economy
+Due to the lack of luxuries and those needed to be added in, fruit was decided to be removed, as it reduces the amount of adjustments needed for the remaining life needs (AKA the most important thing to keep balanced) as these can easily get occupied and fuck up supply, so just less chance of mass starvation is the point. Can always increase demand in the worst case minorly
+Wool - massively increased production
+Replaced fish in - 285 (Chester), 539 (Bremen)
+Replaced grain in - 528 (Hamburg), 529 (Lauenburg), 596 (Aschaffenburg), 556 (Halle), 613 (Salzburg), 735 (Bozen)
+
+Important goods (includes everyday):
+Cotton - Added a LOT of cotton - 621 (Krems), 719 (Bialystock), 937 (Brest-Litovsk), 936 (Gordno), 707 (Suwalki), 711 (Siedlice), 706 (Warsaw), 708 (Plock), 696 (Allenstem), 697 (Gumbinnen), 599 (Munich), 600 (Landshut), 592 (Augsburg), 593 (Ulm), 630 (Budejovice), 595 (Nuremberg), 589 (Stuttgart)
+Halved consumption.
+This has drastically increased the cotton production, it seems to be in line with vanilla demand now (lots of countries, including Bavaria, the 2nd biggest producer, do NOT start with piston steam engine). If there is too little provinces of these cannot be increased, as it would interfere with the other RGOs and not be as 'consolidated' then i.e. the provinces would be everywhere as opposed to now where they sprawl on connected tiles from around Munich or all around Lomza
+Lumber - Outside of Russia there isn't much Lumber in Europe - 715 (Lublin), 709 (Lomza), 679 (Kolberg), 680 (Koslin)
+Testing is needed same as above but is far better as demand only seems to be slightly below, doubt this will need anymore adjustments.
+
+'Luxury' goods:
+Dye - 100k in France already, just need a smaller province to be filled in - 536 (Brunswick)
+Tropical Wood - Removed
+Rubber - Removed
+Silk - Removed
+Oil - Spawns in 334 (Malmo), 280 (Newcastle), and 544 (Schwerin) at 1870
+Tobacco - Crazy high demand, will have a few but will knock down consumption - 329 (Goteborg), 367 (Aalborg), 310 (Christianssand), 372 (Copenhagen), 281 (Hull), 278 (Manchester), 277 (Liverpool), 376 (Rotterdam)
+Halved Consumption
+Coffee, Tea - Removed
+Opium - Added in all of the following low pop provinces - 585 (Detmold), 564 (Frankfurt), 614 (Bregenz), 594 (Sigmaringen), 608 (Neuchatel), 380 (Breda), 693 (Elbing), 371 (Aabenraa)
+
+Industrial RGOs:
+All 3 major RGOs, coal, iron, & sulphur have fine production, it is Europe after all with Russia cut out - no issues
+
+Gold:
+Intially just 1 in France (Alsace-Lorraine) 
+This causes a drastic decrease in the world economy immediately, add gold mines to all major nations in the game (Pru-Aus-Fra-Eng)
+Gold in - 624 (Eisenstadt), 689 (Tesin), 552 (Cottbus), 303 (Southampton), 621 (Krems), 386 (Assen), 313 (Christiania), 396 (Spa)
+The top 4 GPs get 1 (or 2 in the case of Austria) goldmine = 80k - for both Prussia and England this is in their capital state (Brandenburg and SE-England), for France this is its vanilla location in Alsace Lorraine, for Austria this is 50k in its capital, 30k in Tesin (Moravia)
+The 3 'lesser' GPs of Netherlands, Belgium, and Sweden get a 20k, 35k, and a 27k representfully
+Tested game with this, over all money increases day 1, only decreasing due to debts, this can be avoided by giving every country 100k to start with
+
+-----------------------------------VERSION 0.3 ----------------------------------
+- Rebalanced all nations militaries, including armies, navies and leaders
+- Ceded some parts of Prussian Pommern to Mecklenburg
+- Ceded Anhalt to Prussia
+- Removed offensive and defensive units as they are an abomination to man kind
+- Made diplomatic travel time instant and made it so you gain 2 diplo points per day
+- Added artillery factories (and sometimes ammunition factories) to Austria, France and Poland
+- Changed the Austrian map colour to piss yellow (it's actually the yellow from their flag), as their default colour of white blends in too well with uncolonised land
+- Removed Greenland from Denmark, as it allowed players to leave the German boundary
+
+-----------------------------------VERSION 0.4 ----------------------------------
+-Fixed a crash to desktop when clicking on the Lida region (Found by MinedDiamonds)
+-Removed Prussian core from Switzerland (found by MinedDiamonds)
+-Replaced all removed goods in the game that still existed in uncolonised land with Timber in an attempt to fix Bug 1, however seems unsuccesful
+
+Known issues:
+Bug 1: RGO Map Mode is visually bugged
+
+-----------------------------------VERSION 0.5 ----------------------------------
+-Changed Equality national value to have mobi + 2% (buff to France)
+-Added Order to Belgium
+-Added South German accepted to Switzerland
+-Added additional factories around the world
+-Changed Luxemburg to 40 LR and added gold
+-Buffed France to have 35 LR minimum and 40 in capital
+-Made minimum standing army 9 for all nations
+-Gave Southern Sweden to Denmark
+-Increased Polish, Wurttemberg and French army size
+-Reenabled offensive/defensive infantry temporarily as first removal was done poorly
+-Changed prestige values to create a proper GP order
+-Gave Oldenburg and Mecklengburg a small fleet
+-Removed Netherland cores on Belgium
+-Removed Austrian fleet
+-Fixed Broken RGO Map Mode
+-Fixed wildly inflated military scores
+
+-----------------------------------VERSION 0.6 ----------------------------------
+-Buffed all countries to have more bureacrats (credit to Za3bula)
+-Buffed all militaries to have a minimum army of 9k
+-Changed Scandinavian Formation event to 
+	a) be possible without finland
+	b) require owning 2 regions from Denmark and Sweden
+	c) not allow spheres or puppets (credit to Nikolasd0805)
+-Added a decision for Denmark to annex Holstein (credit to Nikolasd0805)
+-Removed French from Belgium and Flemish from Netherlands
+-Removed Netherlands cores on Belgium
+-Gave Belgium an event that allows it choose to focus on France or on the Netherlands in the 1840s, giving them the respective culture and giving whichever nation she chooses the relevant Belgain culture. Additionally, if Belgium focuses on France, Netherlands is given modifiers to make it easier to focus on Germany. (credit to Nikolasd0805)
+-Gave every nation atleast 1 military goods factory, as well as industrial goods factories to some countries
+-Added some flavour to Austria to allow the formation of Austroslavia (credit to Za3bula)
+-Fixed Prussia having a technology it shouldn't be able to get
+-Reduced number of GPs to 4
+-Reduced minimum required units to mobilise to 1

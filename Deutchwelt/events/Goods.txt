@@ -1,0 +1,52 @@
+#All other RGO spawns removed
+
+############################
+#        OIL EVENTS        #
+############################
+province_event = {
+
+	id = 1109
+
+	trigger = {
+		year = 1870
+		or = {
+			province_id = 280		# Newcastle
+			province_id = 544		# Schwerin
+			province_id = 334		# Malmo
+		}
+		not = { trade_goods = oil }
+		OR = {
+			owner = {
+				part_of_sphere = yes
+				sphere_owner = {
+					or = {
+						invention = daimlers_automobile
+						invention = cracking
+						invention = protected_cruisers
+					}
+				}
+			}
+			owner = {
+				or = {
+					invention = daimlers_automobile
+					invention = cracking
+					invention = protected_cruisers
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+	}
+
+	title = "Oil discovered in $PROVINCE$!"
+	desc = "Oil has been discovered in $PROVINCE$!"
+
+	option = {
+		name = "I fucking love oil."
+		trade_goods = oil
+		# life_rate = 5
+	}
+}
+

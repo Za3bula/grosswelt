@@ -1,0 +1,167 @@
+#From;To;Type;Through;Data;Comment
+#
+# European Straits  
+#
+332;331;sea;2708;0;Gotaland Strait #Adds troop access without transports to Gotaland, added for Deutchwelt
+332;331;sea;2710;0;Gotaland Strait #Adds troop access without transports to Gotaland, added for Deutchwelt
+279;304;sea;2737;0;Isle of Man Strait #Adds troop access without transports to the Isle of Man (only way to access it now), added for Deutchwelt
+324;348;sea;2706;0;Aland Strait #Uppsala to Aland #these were in V1
+334;372;sea;2711;0;Öresund
+335;374;sea;2710;0;Bornholmsfärjan
+353;349;sea;2709;0;Öselsund
+372;373;sea;2711;0;Fyn-Sjaelland
+371;373;sea;2711;0;Fyn-Jylland
+375;385;sea;2722;0;Bay of Hollan
+#
+# Impassables
+#
+400;388;impassable;0;0;scary mountain # Europe-Outside Europe
+399;388;impassable;0;0;scary mountain
+399;393;impassable;0;0;scary mountain
+399;404;impassable;0;0;scary mountain
+401;404;impassable;0;0;scary mountain
+401;403;impassable;0;0;scary mountain
+402;403;impassable;0;0;scary mountain
+2570;403;impassable;0;0;scary mountain
+425;403;impassable;0;0;scary mountain
+427;403;impassable;0;0;scary mountain
+427;408;impassable;0;0;scary mountain
+427;406;impassable;0;0;scary mountain
+438;406;impassable;0;0;scary mountain
+438;429;impassable;0;0;scary mountain
+438;430;impassable;0;0;scary mountain
+439;430;impassable;0;0;scary mountain
+446;430;impassable;0;0;scary mountain
+448;430;impassable;0;0;scary mountain
+452;430;impassable;0;0;scary mountain
+452;431;impassable;0;0;scary mountain
+451;431;impassable;0;0;scary mountain
+451;433;impassable;0;0;scary mountain
+451;607;impassable;0;0;scary mountain
+465;607;impassable;0;0;scary mountain
+465;609;impassable;0;0;scary mountain
+721;609;impassable;0;0;scary mountain
+722;609;impassable;0;0;scary mountain
+722;605;impassable;0;0;scary mountain
+722;606;impassable;0;0;scary mountain
+722;2568;impassable;0;0;scary mountain
+726;2568;impassable;0;0;scary mountain
+727;2568;impassable;0;0;scary mountain
+727;611;impassable;0;0;scary mountain
+727;735;impassable;0;0;scary mountain
+734;735;impassable;0;0;scary mountain
+732;735;impassable;0;0;scary mountain
+732;615;impassable;0;0;scary mountain
+732;618;impassable;0;0;scary mountain
+733;618;impassable;0;0;scary mountain
+737;618;impassable;0;0;scary mountain
+769;618;impassable;0;0;scary mountain
+768;618;impassable;0;0;scary mountain
+767;618;impassable;0;0;scary mountain
+767;616;impassable;0;0;scary mountain
+767;624;impassable;0;0;scary mountain
+639;624;impassable;0;0;scary mountain
+623;624;impassable;0;0;scary mountain
+623;633;impassable;0;0;scary mountain
+642;633;impassable;0;0;scary mountain
+642;635;impassable;0;0;scary mountain
+646;635;impassable;0;0;scary mountain
+646;638;impassable;0;0;scary mountain
+646;637;impassable;0;0;scary mountain
+648;637;impassable;0;0;scary mountain
+950;637;impassable;0;0;scary mountain
+950;705;impassable;0;0;scary mountain
+951;705;impassable;0;0;scary mountain
+702;705;impassable;0;0;scary mountain
+702;715;impassable;0;0;scary mountain
+957;715;impassable;0;0;scary mountain
+957;937;impassable;0;0;scary mountain
+940;937;impassable;0;0;scary mountain
+939;937;impassable;0;0;scary mountain
+939;936;impassable;0;0;scary mountain
+938;936;impassable;0;0;scary mountain
+360;936;impassable;0;0;scary mountain
+362;936;impassable;0;0;scary mountain
+362;707;impassable;0;0;scary mountain
+362;697;impassable;0;0;scary mountain
+364;697;impassable;0;0;scary mountain
+364;698;impassable;0;0;scary mountain
+365;698;impassable;0;0;scary mountain
+
+338;336;impassable;0;0;scary mountain # Sweden-Finland/Russia
+338;337;impassable;0;0;scary mountain
+338;984;impassable;0;0;scary mountain
+338;983;impassable;0;0;scary mountain
+338;982;impassable;0;0;scary mountain
+307;982;impassable;0;0;scary mountain
+
+272;279;impassable;0;0;scary mountain # Scotland-England
+272;280;impassable;0;0;scary mountain
+
+2725;2727;impassable;0;0;scary tsunami # Oceans
+2735;2736;impassable;0;0;scary tsunami
+2929;2736;impassable;0;0;scary tsunami
+2929;2739;impassable;0;0;scary tsunami
+2929;2931;impassable;0;0;scary tsunami
+2929;3242;impassable;0;0;scary tsunami
+2716;2717;impassable;0;0;scary tsunami
+2930;3242;impassable;0;0;scary tsunami
+2930;2934;impassable;0;0;scary tsunami
+2930;2933;impassable;0;0;scary tsunami
+2928;2933;impassable;0;0;scary tsunami
+
+2732;272;impassable;0;0;scary coast # Scotland naval landing
+2732;269;impassable;0;0;scary coast
+2733;269;impassable;0;0;scary coast
+2733;270;impassable;0;0;scary coast
+2733;268;impassable;0;0;scary coast
+2733;266;impassable;0;0;scary coast
+2735;266;impassable;0;0;scary coast
+2735;267;impassable;0;0;scary coast
+
+2723;400;impassable;0;0;scary coast # French Coast
+2724;400;impassable;0;0;scary coast
+2724;402;impassable;0;0;scary coast
+2724;415;impassable;0;0;scary coast
+2724;418;impassable;0;0;scary coast
+2725;418;impassable;0;0;scary coast
+2725;424;impassable;0;0;scary coast
+2725;421;impassable;0;0;scary coast
+2725;420;impassable;0;0;scary coast
+
+2710;365;impassable;0;0;scary coast # Baltic Sea naval landings
+2710;359;impassable;0;0;scary coast
+2709;359;impassable;0;0;scary coast
+2709;358;impassable;0;0;scary coast
+2709;357;impassable;0;0;scary coast
+2709;354;impassable;0;0;scary coast
+2709;355;impassable;0;0;scary coast
+2709;351;impassable;0;0;scary coast
+2709;349;impassable;0;0;scary coast
+2709;353;impassable;0;0;scary coast
+2707;353;impassable;0;0;scary coast
+2707;349;impassable;0;0;scary coast
+2707;350;impassable;0;0;scary coast
+2707;997;impassable;0;0;scary coast
+2707;996;impassable;0;0;scary coast
+2707;994;impassable;0;0;scary coast
+2707;339;impassable;0;0;scary coast
+2707;340;impassable;0;0;scary coast
+2707;343;impassable;0;0;scary coast
+2706;343;impassable;0;0;scary coast
+2706;345;impassable;0;0;scary coast
+2706;346;impassable;0;0;scary coast
+2705;346;impassable;0;0;scary coast
+2705;336;impassable;0;0;scary coast
+
+1328;1589;impassable;0;0;scary mountain # Sikkim
+1328;1326;impassable;0;0;scary mountain
+1328;1329;impassable;0;0;scary mountain
+1328;1252;impassable;0;0;scary mountain
+
+#2927;3246;impassable;0;0;scary coast # Jan Mayan Host/Debug Nation, not currently used
+
+#
+# The canals  
+#
+2711;2721;canal;369;1;Kiel Canal

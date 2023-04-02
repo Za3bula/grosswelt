@@ -1,0 +1,214 @@
+#Sphere of Influence
+BEL = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+LUX = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+NET = {
+	value = -100
+		#relation
+
+	level = 3
+		#3=cordial, 4 = friendly, 5 sphere
+
+}
+SWI = {
+	value = 125		#relation
+	level = 3		#3=cordial, 4 = friendly, 5 sphere
+	influence_value = 25
+}
+PRU = {
+	value = -25
+}
+
+leader = {
+	name = "de la Piconnerie"
+	date = 1836.1.1
+	type = land
+	personality = confident
+	background = professor
+	prestige = 0.1
+}
+
+leader = {
+	name = "Jean-Isidore Harispe"
+	date = 1830.1.1
+	type = land
+	personality = relentless
+	background = natural_born_leader
+	prestige = 0.3
+}
+
+leader = {
+	name = "Guy-Victor Duperré"
+	date = 1830.1.1
+	type = sea
+	personality = au_fait
+	background = natural_born_leader
+	prestige = 0.3
+}
+
+leader = {
+	name = "Comte de Castelanne"
+	date = 1823.1.1
+	type = land
+	personality = incapable
+	background = aristocrat
+	prestige = 0.2
+}
+
+leader = {
+	name = "Jacques Achard"
+	date = 1823.1.1
+	type = land
+	personality = relentless
+	background = elderly
+	prestige = 0.2
+}
+
+leader = {
+	name = "Jean-Baptiste Vaillant"
+	date = 1832.1.1
+	type = land
+	personality = lackluster
+	background = engineer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Bernand Pierre Magnan"
+	date = 1835.1.1
+	type = land
+	personality = disorderly
+	background = bootlicker
+	prestige = 0.1
+}
+
+leader = {
+	name = "Baraguey d'Hilliers"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = drillmaster
+	prestige = 0.1
+}
+
+leader = {
+	name = "Comte de Randon"
+	date = 1835.1.1
+	type = land
+	personality = indifferent
+	background = old_school
+	prestige = 0.1
+}
+
+leader = {
+	name = "Charles Baudin"
+	date = 1836.1.1
+	type = sea
+	personality = stouthearted
+	background = unfit
+	prestige = 0.1
+}
+
+leader = {
+	name = "Reille"
+	date = 1836.1.1
+	type = land
+	personality = gallant
+	background = generals_aide
+	prestige = 0.0
+}
+
+leader = {
+	name = "de la Brunerie"
+	date = 1836.1.1
+	type = land
+	personality = stouthearted
+	background = unfit
+	prestige = 0.0
+}
+
+army = {
+	name = "Garde Royale"
+
+	location = 406
+
+	regiment = {
+		name= "3.4ème Division d'Infanterie"
+		type = infantry
+		home = 432
+	}
+
+	regiment = {
+		name= "2.5ème Division d'Infanterie"
+		type = infantry
+		home = 433
+	}
+
+	regiment = {
+		name= "3.5ème Division d'Infanterie"
+		type = infantry
+		home = 431
+	}
+
+	regiment = {
+		name= "1.6ème Division d'Infanterie"
+		type = infantry
+		home = 429
+	}
+	
+	regiment = {
+		name= "2.6ème Division d'Infanterie"
+		type = artillery
+		home = 403
+	}
+	
+	regiment = {
+		name= "3.6ème Division d'Infanterie"
+		type = artillery
+		home = 404
+	}
+	
+	regiment = {
+		name= "4.6ème Division d'Infanterie"
+		type = hussar
+		home = 406
+	}
+
+}
+
+army = {
+	name = "Ethan's Napoleonic Army"
+	location = 411
+	regiment = {
+		name= "1.10ème Division d'Infanterie"
+		type = infantry
+		home = 411
+	}
+
+	regiment = {
+		name= "2.10ème Division d'Infanterie"
+		type = artillery
+		home = 407
+	}
+	
+	regiment = {
+		name= "1.10ème Division d'Infanterie"
+		type = infantry
+		home = 428
+	}
+
+	regiment = {
+		name= "2.10ème Division d'Infanterie"
+		type = infantry
+		home = 430
+	}
+	
+}
+

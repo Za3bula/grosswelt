@@ -1,0 +1,17 @@
+owner = MEC
+controller = MEC
+add_core = MEC
+add_core = GER
+trade_goods = grain
+life_rating = 40
+1861.1.1 = { railroad = 3 }
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}

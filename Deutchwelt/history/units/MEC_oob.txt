@@ -1,0 +1,71 @@
+leader = {
+	name = "Ethan but Mecklenburgische"
+	date = 1817.1.1
+	type = land
+	personality = tactful
+	background = school_of_defense
+	prestige = 0.2
+}
+
+army = {
+	name = "Mecklenburgische Armee"
+	location = 545
+	regiment = {
+		name= "1. Mecklenburgische Infanterie-Brigade"
+		type = infantry
+		home = 545
+	}
+	
+	regiment = {
+		name= "3. Mecklenburgische Infanterie-Brigade"
+		type = artillery
+		home = 544
+	}
+	
+	regiment = {
+		name= "2. Mecklenburgische Infanterie-Brigade"
+		type = infantry
+		home = 530
+	}
+	
+	regiment = {
+		name= "4. Mecklenburgische Infanterie-Brigade"
+		type = artillery
+		home = 545
+	}
+}
+
+navy = {
+	name = "Hanseatic League Fleet"
+	location = 530
+	ship = {
+		name= "HMS Ethan"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Lubeck"
+		type = manowar
+	}
+
+	ship = {
+		name= "HMS Mecklenburg"
+		type = manowar
+	}	
+	
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}	
+	
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}	
+	
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}	
+	
+}

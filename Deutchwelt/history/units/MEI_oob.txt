@@ -1,0 +1,19 @@
+army = {
+	name = "Meiningenische Landwehr"
+	location = 563
+	regiment = {
+		name= "1. Linieninfanteriebrigade"
+		type = infantry
+		home = 563
+	}
+		regiment = {
+		name= "2. Linieninfanteriebrigade"
+		type = infantry
+		home = 563
+	}
+		regiment = {
+		name= "3. Linieninfanteriebrigade"
+		type = artillery
+		home = 563
+	}
+}

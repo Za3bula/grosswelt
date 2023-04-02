@@ -1,0 +1,10 @@
+ 
+ 
+owner = DEN
+controller = DEN
+add_core = DEN
+ 
+add_core = GER
+ 
+trade_goods = opium
+life_rating = 35

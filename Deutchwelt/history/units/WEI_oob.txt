@@ -1,0 +1,19 @@
+army = {
+	name = "Sächsische Armee"
+	location = 561
+	regiment = {
+		name = "1. Linieninfanteri"
+		type = infantry
+		home = 561
+	}
+	regiment = {
+		name = "2. Linieninfanteri"
+		type = infantry
+		home = 561
+	}
+	regiment = {
+		name = "3. Linieninfanteri"
+		type = artillery
+		home = 561
+	}
+}

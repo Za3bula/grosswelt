@@ -1,0 +1,12 @@
+ 
+ 
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = tobacco
+life_rating = 40
+railroad = 1
+1861.1.1 = {
+railroad = 3
+}
+1861.1.1 = { railroad = 3 }
